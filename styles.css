@@ -1,0 +1,37 @@
+main {
+  height: 1000px;
+}
+.cdt-top-nav,
+.navigations {
+  background: none !important;
+}
+.navigations {
+  overflow-y: hidden !important;
+}
+.cdt-top-nav {
+  background: none !important;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: none;
+}
+.logo a img {
+  width: 80px;
+}
+.cdt-top-nav.active,
+.navigations.active {
+  background: black !important;
+}
+.navigations ul li a {
+  color: white;
+}
+.navigations ul li a:hover {
+  color: lightgray;
+}
+header {
+  height: 100vh;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
+    url("./images/audi-header.jpg") no-repeat center center;
+  background-size: cover;
+}
